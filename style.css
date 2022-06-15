@@ -1,0 +1,52 @@
+:root{
+  --background-color: hsl(220, 71%, 98%);
+  --primary-color: hsl(198, 94%, 58%);
+  --accent-color: hsl(198, 94%, 82%);
+  --primary-color-dark: hsl(198, 90%, 42%);
+  --font-color: hsl(198, 13%, 24%);
+}
+
+@font-face {
+    font-family: 'nasalizationregular';
+    src: url('assets/fonts/nasalization-rg-webfont.woff2') format('woff2'),
+         url('assets/fonts/nasalization-rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+.my-navbar{
+  background-color: #fff !important;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: nasalizationregular;
+}
+
+.navbar-logo{
+  height: 92% !important;
+  font-size: 35px;
+  color: hsl(219, 100%, 32%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar-logo img{
+  height: 100% !important;
+  width: 100px;
+}
+
+.my-spinner{
+  justify-self: center;
+  align-self: center;
+}
+
+#map {
+  height: 500px;
+  border-radius: 6px;
+}
